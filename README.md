@@ -158,5 +158,5 @@ Customizing this template is very straightforward:
 You can reach me through the following channels:
 
 -   **Website:** [your-website.com](https://1itman.ir)
--   **LinkedIn:** [linkedin.com/in/your-username]([https://linkedin.com/in/your-username](https://www.linkedin.com/in/hossein-shourgashti-49649051/))
--   **GitHub:** [@your-username](https://github.com/hosseinit1988)
+-   **LinkedIn:** [linkedin.com/in/hossein-shourgashti-49649051](https://www.linkedin.com/in/hossein-shourgashti-49649051/)
+-   **GitHub:** [@hosseinit1988](https://github.com/hosseinit1988)
