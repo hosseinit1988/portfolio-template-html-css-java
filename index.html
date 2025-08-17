@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نام شما | هنرمند دیجیتال و طراح وب</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#home" class="logo interactive">لوگو</a>
+            <ul class="nav-links">
+                <li><a href="#" class="interactive">صفحه اصلی</a></li>
+                <li><a href="#about" class="interactive">درباره من</a></li>
+                <li><a href="#portfolio" class="interactive">نمونه کار</a></li>
+                <li><a href="#contact" class="interactive">تماس با ما</a></li>
+            </ul>
+            <div class="controls">
+                <button id="theme-toggle" class="theme-toggle interactive" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+             <div class="burger interactive"><div></div><div></div><div></div></div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home" class="hero">
+            <div class="spline-container">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.1.8/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/F-eTfS-jS16LeP1C/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="hero-content fade-in">
+                <h1>جایی که خلاقیت<br>با کد تلاقی می‌کند</h1>
+                <p>طراحی وب‌سایت‌های بی‌نظیر که داستان برند شما را روایت می‌کنند.</p>
+                <a href="#portfolio" class="cta-button interactive">پروژه‌های من را ببینید</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="fade-in">درباره من</h2>
+            <div class="bento-grid fade-in">
+                <div class="bento-item main-item"><h3>[نام شما] هستم</h3><p>یک طراح و توسعه‌دهنده وب که عاشق خلق تجربه‌های دیجیتال زیبا و کارآمد است. با بیش از [X] سال تجربه، تخصص من در ترکیب طراحی مینیمال با عملکرد فنی قدرتمند است.</p></div>
+                <div class="bento-item small-item stat-item interactive"><h4>+5</h4><span>سال تجربه</span></div>
+                <div class="bento-item small-item stat-item interactive"><h4>+30</h4><span>پروژه موفق</span></div>
+                <div class="bento-item wide-item"><h3>ابزارهای مورد علاقه من</h3><div class="tools-grid"><span><i class="fab fa-figma"></i> Figma</span><span><i class="fab fa-react"></i> React</span><span><i class="fab fa-node-js"></i> Node.js</span><span><i class="fas fa-palette"></i> Spline</span></div></div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+             <div class="container"><h2 class="fade-in">پروژه‌های منتخب</h2></div>
+             <div class="slider-container fade-in">
+                <div class="portfolio-container">
+                    <div class="portfolio-wrapper">
+                         <div class="portfolio-item interactive"><img src="pexels-photo-326503.jpeg" alt="پروژه اول"><div class="overlay"><h3>وب‌سایت شرکتی</h3><p>طراحی مدرن برای یک شرکت فناوری</p></div></div>
+                        <div class="portfolio-item interactive"><img src="pexels-photo-1779487.jpeg" alt="پروژه دوم"><div class="overlay"><h3>اپلیکیشن فروشگاهی</h3><p>تجربه خرید آنلاین یکپارچه</p></div></div>
+                        <div class="portfolio-item interactive"><img src="pexels-photo-57690.jpeg" alt="پروژه سوم"><div class="overlay"><h3>داشبورد آنالیتیکس</h3><p>مصورسازی داده‌های پیچیده</p></div></div>
+                        <div class="portfolio-item interactive"><img src="macbook-apple-imac-computer-39284.jpeg" alt="پروژه چهارم"><div class="overlay"><h3>وبلاگ شخصی هنرمند</h3><p>پلتفرمی برای نمایش هنر</p></div></div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button id="slide-prev" class="interactive" aria-label="اسلاید قبلی"><i class="fas fa-arrow-right"></i></button>
+                    <button id="slide-next" class="interactive" aria-label="اسلاید بعدی"><i class="fas fa-arrow-left"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <div class="content-wrapper fade-in">
+                <h2>آماده همکاری هستید؟</h2><p>یک ایده دارید؟ بیایید آن را به واقعیت تبدیل کنیم. فرم زیر را پر کنید.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="نام شما" required class="interactive">
+                    <input type="email" placeholder="ایمیل شما" required class="interactive">
+                    <textarea placeholder="پیام شما..." rows="5" required class="interactive"></textarea>
+                    <button type="submit" class="cta-button interactive">ارسال پیام</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer><p>&copy; 1404 - طراحی شده با ❤️ توسط [نام شما]</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
