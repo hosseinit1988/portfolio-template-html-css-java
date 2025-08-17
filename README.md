@@ -42,7 +42,7 @@
 
 1.  این ریپازیتوری را Clone کنید:
     ```bash
-   https://github.com/hosseinit1988/portfolio-template-html-css-java.git
+    https://github.com/hosseinit1988/portfolio-template-html-css-java.git
     ```
 2.  یا فایل ZIP پروژه را دانلود کرده و آن را از حالت فشرده خارج کنید.
 
