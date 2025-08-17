@@ -42,7 +42,7 @@
 
 1.  این ریپازیتوری را Clone کنید:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/hosseinit1988/portfolio-template-html-css-java.git
     ```
 2.  یا فایل ZIP پروژه را دانلود کرده و آن را از حالت فشرده خارج کنید.
 
@@ -83,9 +83,9 @@
 
 می‌توانید از طریق راه‌های زیر با من در ارتباط باشید:
 
--   **وب‌سایت:** [your-website.com](https://your-website.com)
--   **لینکدین:** [linkedin.com/in/your-username](https://linkedin.com/in/your-username)
--   **گیت‌هاب:** [@your-username](https://github.com/your-username)
+-   **وب‌سایت:** [1itman.ir](https://1itman.ir)
+-   **لینکدین:** [linkedin.com/in/hossein-shourgashti-49649051](https://www.linkedin.com/in/hossein-shourgashti-49649051/)
+-   **گیت‌هاب:** [@hosseinit1988](https://github.com/hosseinit1988)
 
 ---
 <br>
@@ -157,6 +157,6 @@ Customizing this template is very straightforward:
 
 You can reach me through the following channels:
 
--   **Website:** [your-website.com](https://1itman.ir)
+-   **Website:** [1itman.ir](https://1itman.ir)
 -   **LinkedIn:** [linkedin.com/in/hossein-shourgashti-49649051](https://www.linkedin.com/in/hossein-shourgashti-49649051/)
 -   **GitHub:** [@hosseinit1988](https://github.com/hosseinit1988)
